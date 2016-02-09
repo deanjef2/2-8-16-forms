@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  $("button#darkbglighttxt").click(function() {
+    $("body").removeClass();
+    $("body").addClass("black-background");
+    $("body").addClass("white-text");
+  });
+  $("button#rv").click(function() {
+    $("body").removeClass();
+    $("body").addClass("white-background");
+    $("body").addClass("black-text");
+  });
+
   $("#blanks form").submit(function(event) {
     var person1Input = $("input#person1").val();
     var person2Input = $("input#person2").val();
@@ -18,4 +29,12 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $("p").click(function() {
+   $("p").addClass("highlight");
+   $("p").addClass("border");
+ });
+
+
+
 });

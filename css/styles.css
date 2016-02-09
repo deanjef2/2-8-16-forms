@@ -1,3 +1,39 @@
 #story {
   display: none;
 }
+
+.black-background {
+  background-color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.btn-success {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-success:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.border {
+  outline-color: blue;
+  outline-width: medium;
+  outline-style: solid;
+}
